@@ -1,0 +1,33 @@
+export type Point = { x: number; y: number };
+
+export type GradientTextProps = {
+  children: string;
+  colors?: string[];
+  start?: Point;
+  end?: Point;
+  gradientType?: 'linear' | 'radial';
+  cx?: number;
+  cy?: number;
+  rx?: number;
+  ry?: number;
+  fontSize?: number;
+  fontWeight?: 'normal' | 'bold' | '300' | '400' | '500' | '600' | '700' | '800' | '900';
+  fontFamily?: string;
+  strokeColor?: string;
+  strokeWidth?: number;
+  letterSpacing?: number;
+  textAlign?: 'left' | 'center' | 'right';
+  lineHeight?: number;
+  shimmer?: boolean;
+  shimmerDuration?: number;
+  animated?: boolean;
+  animatedDuration?: number;
+  perLetter?: boolean;
+  perLine?: boolean;
+  imageUrl?: string;
+  blur?: number;
+  neon?: boolean;
+  neonColor?: string;
+  metal?: boolean;
+  style?: any;
+};

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1000" font-family="Inter,Segoe UI,sans-serif">
+  <rect width="620" height="1000" fill="#0f0f23" rx="20"/>
+
+  <text x="310" y="50" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">react-native-skia-gradient</text>
+  <text x="310" y="74" text-anchor="middle" fill="#666" font-size="13">GPU gradient text — 60fps · Shaders · Neon · Blur</text>
+
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#667eea"/><stop offset="100%" stop-color="#764ba2"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#11998e"/><stop offset="100%" stop-color="#38ef7d"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f093fb"/><stop offset="100%" stop-color="#f5576c"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="50%" stop-color="#feca57"/><stop offset="100%" stop-color="#48dbfb"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ff6b6b"/><stop offset="100%" stop-color="#feca57"/></linearGradient>
+    <linearGradient id="g6s" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="g7" x1="-0.5" y1="0" x2="1.5" y2="0"><stop offset="0%" stop-color="#667eea"/><stop offset="35%" stop-color="#667eea"/><stop offset="50%" stop-color="#ffffff"/><stop offset="65%" stop-color="#764ba2"/><stop offset="100%" stop-color="#764ba2"/></linearGradient>
+    <radialGradient id="g8" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#38ef7d"/><stop offset="100%" stop-color="#11998e"/></radialGradient>
+  </defs>
+
+  <rect x="50" y="105" width="520" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="126" fill="#888" font-size="10" letter-spacing="2">1 · GPU ACCELERATED</text>
+  <text x="70" y="158" fill="url(#g1)" font-size="26" font-weight="800">60fps rendering on GPU</text>
+
+  <rect x="50" y="195" width="250" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="216" fill="#888" font-size="10" letter-spacing="2">2 · TRUE SHIMMER</text>
+  <text x="70" y="250" fill="url(#g7)" font-size="26" font-weight="800">Smooth 60fps</text>
+
+  <rect x="320" y="195" width="250" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="340" y="216" fill="#888" font-size="10" letter-spacing="2">3 · ANIMATED SHADER</text>
+  <text x="340" y="250" fill="url(#g5)" font-size="26" font-weight="800">Shader anim</text>
+
+  <rect x="50" y="285" width="520" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="306" fill="#888" font-size="10" letter-spacing="2">4 · NEON GLOW 🏆</text>
+  <text x="72" y="342" fill="url(#g1)" font-size="26" font-weight="800" filter="url(#glow)">Neon Effect</text>
+
+  <rect x="50" y="375" width="250" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="396" fill="#888" font-size="10" letter-spacing="2">5 · BLUR 🏆</text>
+  <text x="70" y="432" fill="url(#g1)" font-size="26" font-weight="800" opacity="0.6" filter="url(#blur)">Blurry Text</text>
+
+  <rect x="320" y="375" width="250" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="340" y="396" fill="#888" font-size="10" letter-spacing="2">6 · RADIAL</text>
+  <text x="340" y="432" fill="url(#g8)" font-size="26" font-weight="800">Radial</text>
+
+  <rect x="50" y="465" width="520" height="72" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="486" fill="#888" font-size="10" letter-spacing="2">7 · STROKE + GRADIENT</text>
+  <text x="70" y="522" fill="url(#g6)" stroke="url(#g6s)" stroke-width="2.5" font-size="26" font-weight="800">Gradient + Border</text>
+
+  <rect x="50" y="555" width="250" height="95" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="576" fill="#888" font-size="10" letter-spacing="2">8 · PER-LETTER</text>
+  <defs>
+    <linearGradient id="pl0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#667eea"/><stop offset="100%" stop-color="#764ba2"/></linearGradient>
+    <linearGradient id="pl1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f093fb"/><stop offset="100%" stop-color="#f5576c"/></linearGradient>
+    <linearGradient id="pl2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#4facfe"/><stop offset="100%" stop-color="#00f2fe"/></linearGradient>
+    <linearGradient id="pl3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#11998e"/><stop offset="100%" stop-color="#38ef7d"/></linearGradient>
+    <linearGradient id="pl4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f12711"/><stop offset="100%" stop-color="#f5af19"/></linearGradient>
+  </defs>
+  <text font-size="26" font-weight="800" x="70" y="630">
+    <tspan fill="url(#pl0)">G</tspan><tspan fill="url(#pl1)">l</tspan><tspan fill="url(#pl2)">y</tspan><tspan fill="url(#pl3)">p</tspan><tspan fill="url(#pl4)">h</tspan>
+    <tspan fill="url(#pl0)">s</tspan>
+  </text>
+
+  <rect x="320" y="555" width="250" height="95" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="340" y="576" fill="#888" font-size="10" letter-spacing="2">9 · MULTI-LINE</text>
+  <text x="340" y="606" fill="url(#g4)" font-size="20" font-weight="700">Skia text</text>
+  <text x="340" y="632" fill="url(#g4)" font-size="20" font-weight="700">Multi-line</text>
+
+  <rect x="50" y="668" width="520" height="100" rx="14" fill="#1a1a35" stroke="#2a2a50" stroke-width="1"/>
+  <text x="70" y="689" fill="#888" font-size="10" letter-spacing="2">10 · VS SVG (CPU vs GPU)</text>
+  <text x="70" y="716" fill="#f5576c" font-size="15" font-weight="600">SVG ❌</text>
+  <text x="120" y="716" fill="#888" font-size="14">CPU · polygon based · shimmer lagga · no effects</text>
+  <text x="70" y="742" fill="#38ef7d" font-size="15" font-weight="600">Skia ✅</text>
+  <text x="120" y="742" fill="#888" font-size="14">GPU · shader based · 60fps shimmer · blur · neon</text>
+
+  <text x="310" y="830" text-anchor="middle" fill="#555" font-size="12">npm install @shopify/react-native-skia</text>
+  <text x="310" y="860" text-anchor="middle" fill="#3a3a5a" font-size="11">GPU · Shader · 60fps · Neon · Blur · TypeScript</text>
+</svg>
